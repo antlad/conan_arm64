@@ -8,5 +8,5 @@ RUN apt-get -qq update && \
 
 RUN mkdir -p ~/.conan/profiles
 
-COPY linux-aarch64-gcc10-host ~/.conan/profiles
-COPY linux-x86_64-gcc10 ~/.conan/profiles
+COPY linux-aarch64-gcc10 ~/.conan/profiles
+
